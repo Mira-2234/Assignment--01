@@ -10,7 +10,7 @@
   
 }
 
-.btn{
+.btn-1{
     background-color: #469165;
     border: none;
     padding: 12px 16px;
@@ -53,6 +53,89 @@ nav .menu a{
     display: flex;
 }
 
-img{
+/* img{
     margin-right: 345px;
+} */
+
+.banner-image{
+    display: flex;
+    background-size: 80%;
+    position: relative;
+    background-repeat: no-repeat;
+   height: 666px;
+   width: 750px;
 }
+
+ .banner-container {
+    position: absolute;
+    text-align: center;
+    max-height: 600px;
+}
+
+#hero{
+    position: relative;
+}
+.main{
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: bold;
+
+}
+.section{
+    color: #30B868;
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.banner-container p{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-size: small;
+
+}
+
+.button{
+    background-color: #FFFFFF;
+    color: #469165;
+    border-radius: 1000px;
+    padding: 8px 12px 8px 34px;
+    font-size: 16;
+    margin-top: 154px;
+    cursor: pointer;
+    
+
+}
+.banner-container{
+    align-items: center;
+}
+#hero .banner-container{
+    background-image: url(B13-A01-Knowledge-Vault/assets/hero-bg.png);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+
+.btn-2{
+    background-color: #469165;
+    border: none;
+    padding: 16px 46px 16px 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    /* margin-left: 300px; */
+    margin: 36px 05px;
+    gap: auto;
+    }
+.btn-3{
+    border: 1px solid white;
+    padding: 22px 17px 17px 46px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 36px 05px;
+    gap: auto;
+    box-sizing: border-box;
+    background: transparent;
+}
+
